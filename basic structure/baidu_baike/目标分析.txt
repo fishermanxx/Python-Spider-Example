@@ -1,0 +1,10 @@
+入口页：http://baike.baidu.com/item/Python?sefr=cr
+URL格式：<a target="_blank" href="/item/%E8%87%AA%E7%94%B1%E8%BD%AF%E4%BB%B6">自由软件</a>
+数据格式：
+	标题：
+	<dd class="lemmaWgt-lemmaTitle-title"><h1>Python</h1>.*?</dd>
+	简介：
+	<div class="lemma-summary" label-module="lemmaSummary">
+	<div class="para" label-module="para">(.*?)</div>
+	</div>
+页面编码：UTF
